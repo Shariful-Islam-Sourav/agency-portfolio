@@ -27,11 +27,13 @@ ul {
 ul li a {
   padding: 0px 20px;
   color: black;
+  transition: 0.4s all;
 }
 .btn {
   color: #ffff;
   background-color: #6c63ff;
   font-weight: 700;
+  transition: 0.6s all;
 }
 .sign-up {
   padding: 10px 25px;
@@ -71,10 +73,10 @@ ul li a:hover {
   padding: 10px 40px;
   border-radius: 10px;
 }
-.projects {
+.common-bottom {
   margin-bottom: 200px;
 }
-.projects h1 {
+.common-bottom h1 {
   text-align: center;
   font-size: 54px;
   margin-bottom: 50px;
@@ -84,7 +86,7 @@ ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 350px;
   background-color: #6c63ff;
 }
 .service-img img {
@@ -96,3 +98,53 @@ ul li a:hover {
 .service-img img:hover {
   max-width: 450px;
 }
+.product-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  background-color:#6c63ff;
+  color: white;
+  border-radius: 10px;
+  margin-right: 50px;
+  padding: 100px 80px;
+  text-align: center;
+}
+.card h2{
+  margin-bottom: 20px;
+  font-size:30px;
+}
+.price{
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.card span{
+  font-size:14px;
+}
+.card hr, .card{
+  margin-bottom: 20px;
+}
+.card a {
+  color: #6c63ff;
+  background-color: #fff;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+.info{
+  margin-bottom: 20px;
+}
+.card a:hover {
+  box-shadow: 1px 1px 20px #fff;
+}
+footer {
+  display: flex;
+  color: rgb(59, 59, 59);
+  background-color:#6c63ff;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ------------------------------------END--------------------------------------------------------- */
