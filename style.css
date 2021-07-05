@@ -1,0 +1,44 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px; 
+}
+header h1 a{
+    color: #6C63FF;
+    letter-spacing: 5px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a {
+    padding: 0px 20px;
+    color: black;
+}
+.btn {
+    color: #ffff;
+    background-color: #6C63FF;
+    border-radius: 25px;
+    font-weight: 700;
+}
+.sign-up {
+    padding: 10px 25px;
+}
+ul li a:hover {
+    color: #6c64FF;
+}
+ul li:last-child a:hover {
+    background-color: #ffff;
+    box-shadow: 1px 1px 15px #777;
+}
