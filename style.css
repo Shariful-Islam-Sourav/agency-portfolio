@@ -104,25 +104,26 @@ ul li a:hover {
   justify-content: center;
 }
 .card {
-  background-color:#6c63ff;
+  background-color: #6c63ff;
   color: white;
   border-radius: 10px;
   margin-right: 50px;
   padding: 100px 80px;
   text-align: center;
 }
-.card h2{
+.card h2 {
   margin-bottom: 20px;
-  font-size:30px;
+  font-size: 30px;
 }
-.price{
+.price {
   font-size: 25px;
   margin-bottom: 40px;
 }
-.card span{
-  font-size:14px;
+.card span {
+  font-size: 14px;
 }
-.card hr, .card{
+.card hr,
+.card {
   margin-bottom: 20px;
 }
 .card a {
@@ -131,7 +132,7 @@ ul li a:hover {
   padding: 5px 12px;
   border-radius: 5px;
 }
-.info{
+.info {
   margin-bottom: 20px;
 }
 .card a:hover {
@@ -140,7 +141,7 @@ ul li a:hover {
 footer {
   display: flex;
   color: rgb(59, 59, 59);
-  background-color:#6c63ff;
+  background-color: #6c63ff;
   height: 100px;
   align-items: center;
   justify-content: center;
